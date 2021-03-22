@@ -44,16 +44,43 @@ display: inline-block;
 .about {
   color:rgb(29, 29, 235);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  font-size: large;
   margin-left: 350px;
   margin-right: 200px;
-  border: rgba(32, 31, 31, 0.301)
-}
-
-.description {
-
+  margin-bottom: 30px;
+  border: rgba(32, 31, 31, 0.301);
 }
 
 .eduandwork {
+  color:rgb(29, 29, 235);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-left: 350px;
+  margin-right: 200px;
+  border: rgba(32, 31, 31, 0.301);
+}
 
+.eduandwork ul {
+  list-style: circle;
+}
+
+#work {
+  margin-top: 20px;
+}
+
+.contact {
+  color:rgb(29, 29, 235);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-left: 350px;
+  margin-right: 200px;
+  border: rgba(32, 31, 31, 0.301);
+}
+
+.contact ul {
+  list-style: circle;
+}
+
+#contactinfo {
+  margin-top: 20px;
 }
