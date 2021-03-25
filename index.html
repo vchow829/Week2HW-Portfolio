@@ -13,37 +13,42 @@
     <h1>Vince Chow Portfolio</h1>
   <nav>
     <ul>
-      <li>About Me</li>
-      <li>Education and Work Experience</li>
-      <li>Contact Information</li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#eduandwork">Education and Work Experience</a></li>
+      <li><a href="#contact">Contact Information</a></li>
     </ul>
   </nav>
   </header>
 
-  <section>
-    <div class="mainphoto">
-      <img src="02-Homework/Assets/Main Image.jpg" alt="Vince Chow Picture">
-    </div>
-  </section>
-  
-  <section>
-    <div class="about">
-      <h2>About Me</h2>
-      <p>
-        I am a graduate of Washington State University and obtained a BA in Sport Management with a minor in Business Administration. Throughout my career, I have had many stops working with professional organizations ranging from Minor League Baseball and Major League Baseball, Division I athletic departments, and the National Hockey League. The bulk of my experience has been in ticket operations, which is quite niche prompting me to acquire and learn new skills in web development with the hope of expanding career opportunities. While I am new to this experience and this is my first page build, I am confident that I will learn and be knowledgeable to succeed as a web developer.
-      </p>
-    </div>
-  </section>
 
-  <section>
-    <div class="eduandwork">
+  <div class="maincontent" id="flex-container" style="display:inline-flex">
+
+    <aside class="mainphoto">
+      <img src="02-Homework/Assets/Main Image.jpg" alt="Vince Chow Picture">
+    </aside>
+    
+  
+    <main>
+      
+    <section class="contentborder">
+      <h2>About Me</h2>
+      <br>
+      <p>
+        I am a graduate of Washington State University and obtained a BA in Sport Management with a minor in Business Administration. Throughout my career, I have had many stops working with professional organizations ranging from Minor League Baseball and Major League Baseball, Division I athletic departments, and the National Hockey League.<br><br>I have experience working working in eCommerce, providing strategies and suggestions for a group of clients to increase revenue via ticket sales and solitation of donors in my most recent position. The bulk of my experience has been in ticket operations and live events, which is quite niche, prompting me to pursue and learn new skills in web development with the hope of expanding career opportunities. While I am new to this experience and this is my first page build, I am confident that I will learn and be knowledgeable to succeed as a web developer.<br><br>
+      </p>
+    </section>
+  
+  <section class="contentborder">
+    <div >
       <h2>Education</h2>
+      <br>
       <ul>
         <li>Washington State University; BA Sport Management</li>
         <li>University of California, Irvine; Certificate Program: Web Development (In progress)</li>
       </ul>
       
       <h2 id="work">Work Experience</h2>
+      <br>
       <ul>
         <li>Paciolan - eCommerce Operations Specialist; May 2019 - Dec. 2020</li>
         <li>UCLA Central Ticket Office - Athletics Event and Data Coordinator; Aug. 2018 - May 2019</li>
@@ -52,21 +57,24 @@
         <li>University of Nebraska-Omaha - Ticket Operations Manager; Aug. 2012 - Dec. 2012</li>
         <li>Additional part time positions and internships include: Albuquerque Isotopes, Hickory Crawdads, Seattle Mariners, Tacoma Rainiers</li>
       </ul>
+      <br>
     </div>
   </section>
-
-  <section>
-    <div class="contact">
-      <h2 id="contactinfo">Contact Me</h2>
+  
+    <section>
+      <div >
+      <h2 id="contact">Contact Me</h2>
       <ul>
         <li><a href=mailto:vchow.829@gmail.com>Email</a></li>
         <li>Phone: 619.727.7937</li>
         <li><a href=https://github.com/vchow829>GitHub Page</a></li>
-        <li><a href=https://vchow829.github.io/code-refactory-hw/>Previous work (Code Refactor)</li>
-      </ul>
-    </div>
-  </section>
+        <li><a href=https://vchow829.github.io/code-refactory-hw>Previous work (Code Refactor)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
   
+  </div>
   
 </body>
 </html>
