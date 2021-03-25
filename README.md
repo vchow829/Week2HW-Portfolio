@@ -1,1 +1,3 @@
-# Week2HW-Portfolio
+This homework as obviously more challenging building it from the ground up without starter code to reference. I don't think it's perfect as it looks pretty basic but the functionality is there.
+
+Once we complete more projects, I will be able to change out other aspects of the page to include more content. The aspects I had difficulty with was adding button links which I researched and saw several different ways to incorporate as well as margin/padding spacing and positioning of the elements. Using the proper coding words in VS code is still challenging because I don't always know what to search for from idea to screen.
